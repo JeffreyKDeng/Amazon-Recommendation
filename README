@@ -1,0 +1,19 @@
+Jeffrey Deng (jkdeng@ucsc.edu) & Kevin Andres (kandres@ucsc.edu)
+Pair Programming
+CMPS 101 - Spring 2013
+Program 3 - Amazon Recommendations
+
+
+In this program, we created a program in C, which included ADTs made in Program 1, as well
+as some new ADTs which helped us reach the goal of recommending books to users based on 
+the co-purchases of books bought by other buyers that also bought a newly bought book. In
+order to do this, we had to use the process of hashing, which was a bit more difficult
+than we thought.
+
+In bookCountList.c we used some functions made in Program 1, in order to manage lists that
+we created. We also had to create functions swap, in order to swap elements in the list,
+add, to add elements to list.
+In bookListList.c we created an actual hashtable as well as functions needed to organize,
+manipulate, and print things in the hashtable
+The main file opens the test files and organizes recommendations of bookIDs to customers. 
+The AmazonDriver file will show the testing of the functions that were made for this program.  We inserted some random number and hash the number into the hashtable. Then the full hashtable is printed with recommendations of each book. And the print function also shows the whole hastable with the empty spots. 
